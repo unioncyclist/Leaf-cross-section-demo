@@ -1,6 +1,8 @@
-# Leaf Section 3D
+# Leaf Cross Section
 
 ## Run local server
+
+Put all the files under the same folder and both ways will work
 
 PowerShell:
 
