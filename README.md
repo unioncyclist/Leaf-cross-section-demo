@@ -1,2 +1,17 @@
-# Leaf-cross-section-demo
-A HTML based 3D demo for leaf cross section
+# Leaf Section 3D
+
+## Run local server
+
+PowerShell:
+
+```
+./start-server.ps1
+```
+
+CMD:
+
+```
+start-server.cmd
+```
+
+Then open http://localhost:8000/

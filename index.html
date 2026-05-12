@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>植物叶片横截面 3D 结构</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <header class="hero">
+        <div>
+          <h1>植物叶片横截面 3D 结构</h1>
+        </div>
+        <div class="legend">
+          <span class="legend-item" data-color="#66c26f">上表皮</span>
+          <span class="legend-item" data-color="#cfc39a">表皮内层</span>
+          <span class="legend-item" data-color="#a9e9ad">叶肉</span>
+          <span class="legend-item" data-color="#66c26f">下表皮</span>
+          <span class="legend-item" data-color="#6a8fcf">叶脉</span>
+          <span class="legend-item" data-color="#5f7f6a">气孔</span>
+        </div>
+      </header>
+      <main class="stage">
+        <div id="canvas-wrap"></div>
+        <aside class="info" id="info-panel">
+          <div class="info-header">
+            <h2 id="part-name">请选择一个结构</h2>
+            <span id="part-tag" class="tag">Leaf</span>
+          </div>
+          <div class="toggle">
+            <label>
+              <input type="checkbox" id="auto-rotate" checked />
+              自动旋转
+            </label>
+          </div>
+          <p id="part-desc">点击 3D 模型中的结构可查看简要说明。</p>
+          <div class="hint">
+            <strong>交互提示</strong>
+            <ul>
+              <li>左键拖动: 平移视角</li>
+              <li>右键拖动: 旋转模型</li>
+              <li>滚轮: 缩放</li>
+            </ul>
+          </div>
+        </aside>
+      </main>
+      <footer class="footer">Leaf Section 3D · 2026</footer>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
